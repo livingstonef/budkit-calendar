@@ -1,0 +1,22 @@
+{
+    "name": "livingstonef/calendar",
+    "description": "A Calendar Packaged App for Budkit",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Livingstone Fultang",
+            "email": "livingstonefultang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": { "": "src/"}
+    },
+    "scripts":{
+        "post-package-install": [],
+        "post-package-uninstall": [],
+        "post-package-update: []
+    }
+}
