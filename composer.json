@@ -12,11 +12,11 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": { "": "src/"}
+        "psr-4": { "App\\Calendar\\": "vendor/livingstonef/calendar/src/"}
     },
     "scripts":{
         "post-package-install": [],
         "post-package-uninstall": [],
-        "post-package-update: []
+        "post-package-update": []
     }
 }
