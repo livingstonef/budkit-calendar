@@ -13,10 +13,5 @@
     },
     "autoload": {
         "psr-4": { "App\\Calendar\\": "src/"}
-    },
-    "scripts":{
-        "post-package-install": [],
-        "post-package-uninstall": [],
-        "post-package-update": []
     }
 }
