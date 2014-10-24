@@ -13,7 +13,7 @@ class Calendar extends Controller {
 
     public function index($format = 'html') {
         //echo "Browsing Calendar in {$format} format";
-        
+
         $this->display('Views\Index');
     }
 
