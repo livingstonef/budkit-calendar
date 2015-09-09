@@ -9,6 +9,8 @@ class Calendar extends Controller {
 
     public function __construct(Application $application) {
         parent::__construct($application);
+
+        $this->view->appendLayoutSearchPath( Provider::getPackageDir()."layouts/");
     }
 
     public function index($format = 'html') {
